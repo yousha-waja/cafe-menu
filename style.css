@@ -2,7 +2,7 @@ body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family: sans-serif;
   padding: 20px;
-  color: rgb(140, 80, 2);
+  color: rgb(150, 80, 2);
 }
 
 h1 {
@@ -88,6 +88,19 @@ section {
   border-right: none;
 }
 
+.headings {
+   background-color: rgba(0, 0, 0,0.6);
+   text-align: center;
+   
+}
+.headings h2 {
+  display: inline-block;
+}
+
+.headings img {
+  display: inline-block;
+  vertical-align: middle; /* This will align the image vertically with the text */
+}
 /* FOOTER */
 
 footer {
