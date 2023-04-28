@@ -1,0 +1,117 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
+  padding: 20px;
+  color: rgb(140, 80, 2);
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+
+.menu {
+  width: 80%;
+  background-color: rgba(0, 0, 0,0.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 2px;
+  background-color: rgb(110, 51, 21);
+  border-color: rgb(164, 112, 34);
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+h1, h2 {
+  font-family: Impact, serif;
+  text-decoration: underline double;
+}
+
+.item {
+
+  margin-bottom: 0;
+  padding: 0;
+  border: 2px solid rgba(47, 41, 41, 0.9);
+  
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: rgb(129, 123, 99);font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ padding: 0px;
+}
+
+.flavor, .dessert {
+  text-align: left;
+  width: 75%;
+}
+
+.price {
+  text-align: right;
+
+}
+
+section {
+  border-top: 4px dotted;
+
+  border-left: none;
+  border-right: none;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 18px;
+  color
+
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: rgb(20, 16, 239);
+}
+
+a:visited {
+  color: rgb(240, 11, 11);
+}
+
+a:hover {
+  color: rgb(42, 165, 71);
+}
+
+a:active {
+  color: brown;
+}
